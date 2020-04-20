@@ -11,22 +11,40 @@
 
     <link rel="stylesheet" href="/css/style.css">
 
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <link rel="stylesheet" type="text/css" href="jquery.funnyText.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.funnyText.js"></script>
 
 
 
 
+    <script>
+        $(document).ready(function () {
+            $("#word1").addClass("animated infinite bounce");
+            $('.mySelector').funnyText({
+		speed: 700,
+		borderColor: 'black',
+		activeColor: 'white',
+		color: 'black',
+		fontSize: '7em',
+		direction: 'both'
+	});
 
+        })
+    </script>
 
 
 
     <meta name="generator" content="Hexo 4.2.0">
 </head>
 
-<script>
-    $(document).ready(function () {
-        $(".quote").addClass("animated bounce")
-    })
-</script>
+
 
 
 
@@ -103,7 +121,7 @@
                     </div>
 
 
-                    <div class="post-content">
+                    <div class="mySelector post-content">
                         <h1 id="Want-to-know-where-there-is-food"><a href="#Want-to-know-where-there-is-food" class="headerlink" title=" Want to know where there is food ? "></a><h1> Want to know where there is food ? </h1></h1><h3 id="Hot-Pot-Roast-meat-Japanese-cuisine-Brunch-dessert-Dating-restaurant"><a href="#Hot-Pot-Roast-meat-Japanese-cuisine-Brunch-dessert-Dating-restaurant" class="headerlink" title=" Hot Pot  ,  Roast meat  , Japanese cuisine , Brunch , dessert , Dating restaurant."></a><font color="#EBEB00"> Hot Pot  ,  Roast meat  , Japanese cuisine , Brunch , dessert , Dating restaurant.</h3><hr>
                         <h3 id="Hot-Pot-v"><a href="#Hot-Pot-v" class="headerlink" title=" ** Hot Pot (@ v @) **"></a><font color="#B80000"> ** Hot Pot (@ v @) **</h3><hr>
                         <h3 id="Taipei-region"><a href="#Taipei-region" class="headerlink" title="Taipei region"></a><a href="https://ifoodie.tw/explore/%E5%8F%B0%E5%8C%97%E5%B8%82/list/%E7%81%AB%E9%8D%8B" target="_blank" rel="noopener">Taipei region</a></h3><h3 id="New-Taipei-region"><a href="#New-Taipei-region" class="headerlink" title="New Taipei region"></a><a href="https://ifoodie.tw/explore/%E6%96%B0%E5%8C%97%E5%B8%82/list/%E7%81%AB%E9%8D%8B" target="_blank" rel="noopener">New Taipei region</a></h3><h3 id="Taoyuan-region"><a href="#Taoyuan-region" class="headerlink" title="Taoyuan region"></a><a href="https://ifoodie.tw/explore/%E6%A1%83%E5%9C%92%E5%B8%82/list/%E7%81%AB%E9%8D%8B" target="_blank" rel="noopener">Taoyuan region</a></h3><hr>
@@ -168,7 +186,7 @@
             </div>
 
             <div class="quote" id="move">
-                <p>人生成功的一部分秘訣是，吃下愛吃的東西，然後讓食物在肚子里斗爭到底。——馬克·吐溫</p>
+                <p id="word1">人生成功的一部分秘訣是，吃下愛吃的東西，然後讓食物在肚子里斗爭到底。——馬克·吐溫</p>
             </div>
 
             <div class="copyright">
