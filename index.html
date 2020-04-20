@@ -11,6 +11,27 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
+<meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <script>
+        $(document).ready(function () {
+            $("#word1").addClass("animated infinite bounce");
+              $("button").addClass("animated infinite bounce");
+              $("button").addClass("animated infinite shake");
+            $(".mySelector").funnyText({
+        speed: 700,
+        borderColor: 'black',
+        activeColor: 'white',
+        color: 'black',
+        fontSize: '7em',
+        direction: 'both'
+      });
+        });
+    </script>
   
 
   
@@ -73,8 +94,8 @@
           <h1><a class="post-title-link" href="/2020/04/05/hello-world/">Food World!</a></h1>
         </div>
         <div class="post-meta">
-          <span class="post-time"><i class="iconfont icon-calendar"></i>2020-04-05</span>
-          
+          <span class="post-time"><i class="iconfont icon-calendar"></i>2020-04-20</span>
+          <button>gogo</button>
           <!---------------------------------------->
             
         <!----------------------------------------->
@@ -151,7 +172,7 @@
       </div>
       
         <div class="quote">
-          <p>人生成功的一部分秘訣是，吃下愛吃的東西，然後讓食物在肚子里斗爭到底。——馬克·吐溫</p>
+          <p id="word1">人生成功的一部分秘訣是，吃下愛吃的東西，然後讓食物在肚子里斗爭到底。——馬克·吐溫</p>
         </div>
       
       <div class="copyright">
